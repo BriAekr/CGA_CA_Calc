@@ -60,7 +60,7 @@ except Exception as e:
 # Sidebar for inputs
 st.sidebar.header("Donor Info")
 donor_age = int(st.sidebar.number_input("Donor Age", min_value=20, max_value=100, value=75))
-joint_annuitant_age = int(st.sidebar.number_input("Joint Annuitant Age (if any)", min_value=20, max_value=100, value=0))
+joint_annuitant_age = int(st.sidebar.number_input("Joint Annuitant Age (if any)", min_value=20, max_value=100, value=65))
 is_joint = st.sidebar.selectbox("Is this a Joint Annuity?", ["No", "Yes"])
 
 st.sidebar.header("Gift Info")
