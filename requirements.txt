@@ -4,3 +4,5 @@ requests
 beautifulsoup4
 matplotlib
 fpdf
+tempfile
+os
