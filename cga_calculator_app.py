@@ -87,7 +87,7 @@ joint_annuity_factors_df = load_joint_annuity_factors()
 # Sidebar Inputs
 st.sidebar.header("Donor Info")
 donor_age = st.sidebar.number_input("Donor Age", min_value=20, max_value=100, value=75)
-joint_annuitant_age = st.sidebar.number_input("Joint Annuitant Age (if any)", min_value=20, max_value=100, value=0)
+joint_annuitant_age = st.sidebar.number_input("Joint Annuitant Age (if any)", min_value=20, max_value=100, value=67)
 is_joint = st.sidebar.selectbox("Is this a Joint Annuity?", ["No", "Yes"])
 
 st.sidebar.header("Gift Info")
